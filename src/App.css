@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 25px;
+}
+#listOfEmoji {
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#listOfEmoji div{
+    border: 1px solid grey;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 120px;
+    margin: 5px;
+    background-color: rgb(228, 226, 226);
+    font-size: 49px;
+}
+#listOfEmoji div:hover {
+    background-color: rgb(228, 226, 226);
+    cursor: pointer;
+    border: 2px solid blue;
+}
+#input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
